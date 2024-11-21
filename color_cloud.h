@@ -23,7 +23,7 @@ POINT_CLOUD_REGISTER_POINT_STRUCT(color_cloud::PointNormal,
     (float, normal_y, normal_y)
     (float, normal_z, normal_z)
     (float, curvature, curvature)
-    (float, rgb, rgb)
+    (float, rgba, rgba)
 )
 
 typedef color_cloud::PointNormal PointType;
